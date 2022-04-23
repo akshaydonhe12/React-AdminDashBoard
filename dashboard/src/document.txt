@@ -1,0 +1,48 @@
+title="Revanue" rate="1000" update="-12.5"/>
+        <FeatureInfo  title="cost" rate="2000" update="-25.5"/>
+        <FeatureInfo  title="sale" rate="3000" update="-12.2"/>
+
+
+
+
+
+        <!---------------------------------------------------------------->
+
+        import React from 'react';
+import './featureInfo.css';
+import{KeyboardArrowDown, KeyboardArrowUp } from '@mui/icons-material';
+
+export default function FeatureInfo() {
+  return (
+    <div className="Featured">
+        <div className="FeatureItem">
+            <span className="FeatuireTitle">Revanue</span>
+            <div className="FeatureMoneyConatiner">
+                <span className="FeatureMoney">$1,000</span>
+                <span className="FeatureMoneyRate">-12.5<KeyboardArrowDown /></span>
+            </div>
+            <span className="FeatureSub">Compare to last Month</span>
+        </div>
+
+        <div className="FeatureItem">
+            <span className="FeatuireTitle">Sales</span>
+            <div className="FeatureMoneyConatiner">
+                <span className="FeatureMoney">$2,000</span>
+                <span className="FeatureMoneyRate">-25.3<KeyboardArrowDown /></span>
+            </div>
+            <span className="FeatureSub">Compare to last Month</span>
+        </div>
+
+        <div className="FeatureItem">
+            <span className="FeatuireTitle">Cost</span>
+            <div className="FeatureMoneyConatiner">
+                <span className="FeatureMoney">$1,000</span>
+                <span className="FeatureMoneyRate">-12.5<KeyboardArrowUp /></span>
+            </div>
+            <span className="FeatureSub">Compare to last Month</span>
+        </div>
+
+
+    </div>
+  )
+}

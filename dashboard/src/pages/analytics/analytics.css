@@ -1,0 +1,16 @@
+.analytics{
+    flex: 4;
+}
+
+.analyticsTitle{
+    font-size: 24px;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bold;
+   
+}
+
+.pieChart{
+    align-items: center;
+    justify-content: center;
+}
